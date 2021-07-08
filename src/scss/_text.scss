@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.text-xs {
+  font-size: $xsFontSize;
+}
+
+.text-sm {
+  font-size: $smFontSize;
+}
+
+.text-md {
+  font-size: $mdFontSize;
+}
+
+.text-lg {
+  font-size: $lgFontSize;
+}
+
+.text-xl {
+  font-size: $xlFontSize;
+}
+
+.text-primary {
+  color: $primaryColor;
+}
+
+.text-secondary {
+  color: $secondaryColor;
+}
+
+.text-tertiary {
+  color: $tertiaryColor;
+}
+
+.text-light {
+  color: $lightColor;
+}
+
+.text-dark {
+  color: $darkColor;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-underline {
+  text-decoration: underline;
+}

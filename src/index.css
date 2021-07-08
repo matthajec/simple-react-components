@@ -1,13 +1,108 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.85rem;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.text-xl {
+  font-size: 2rem;
+}
+
+.text-primary {
+  color: red;
+}
+
+.text-secondary {
+  color: green;
+}
+
+.text-tertiary {
+  color: blue;
+}
+
+.text-light {
+  color: white;
+}
+
+.text-dark {
+  color: black;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.border-primary {
+  border-color: red;
+}
+
+.border-secondary {
+  border-color: green;
+}
+
+.border-tertiary {
+  border-color: blue;
+}
+
+.border-light {
+  border-color: white;
+}
+
+.border-dark {
+  border-color: black;
+}
+
+.bg-primary {
+  background-color: red;
+}
+
+.bg-secondary {
+  background-color: green;
+}
+
+.bg-tertiary {
+  background-color: blue;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+body {
+  font-size: 16px;
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1em;
 }
